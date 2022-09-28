@@ -1,17 +1,21 @@
+header{
+    margin: 0;
+}
+
 .container{
-    justify-content: space-between;
-    font-size: 24px;
-    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0;
+    background-color: blueviolet;
     display: flex;
+    justify-content: space-between;
 }
 
-img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.nav-link{
+    color: black;
 }
 
-.col-8 {
-    height:300px;
-    width: 300px;
-   }
+#logo{
+    height: 80px;
+    width: auto;
+}
