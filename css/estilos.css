@@ -1,21 +1,29 @@
 header{
     margin: 0;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
-.container{
-    max-height: 100%;
-    max-width: 100%;
-    margin: 0;
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-between;
+.main{
+    padding-top: 10rem;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+}
+
+.container-fluid{
+    background-color: #0a0a0a;
 }
 
 .nav-link{
-    color: black;
+    color: aliceblue;
 }
 
-#logo{
-    height: 80px;
-    width: auto;
+#opciones{
+    padding-left: 100px;
 }
