@@ -1,0 +1,35 @@
+body{
+    background-color: gainsboro;
+    position: relative;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+header{
+    background-color: gray;
+    margin: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    background-color: #0a0a0a;
+    width: 100%;
+    color: white;
+    }
+
+footer p{
+        margin: 0;
+    }
+
+.main{
+    padding-top: 5rem;
+    position: static;
+    z-index: 1;
+    padding-bottom: 2rem;
+}
+
